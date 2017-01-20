@@ -1,0 +1,81 @@
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1140px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.row {
+    margin: 15px -15px;
+    height: 34px;
+}
+
+.text {
+    margin-right: 15px;
+    margin-left: 15px;
+    border: 2px solid #299642;
+    font-weight: bold;
+    color: #737070;
+    padding: 7px;
+}
+
+.one-half {
+    width: 50%;
+}
+
+.one-third {
+    width: 33.33%;
+}
+
+.two-third {
+    width: 66.66%;
+}
+
+.one-fourth {
+    width: 25%;
+}
+
+.three-fourth {
+    width: 75%;
+}
+
+.two-fifth {
+    width: 40%;
+}
+
+.three-fifth {
+    width: 60%;
+}
+
+.one-sixth {
+    width: 16.66%;
+}
+
+.one-half, .one-third, .two-third, .three-fourth, .one-fourth, .one-fifth,
+.two-fifth, .three-fifth, .four-fifth, .one-sixth, .five-sixth {
+    float: left;
+    min-height: 1px;
+}
+
+@media only screen and (max-width: 1140px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .one-half, .one-third, .two-third, .three-fourth, .one-fourth,
+    .one-fifth, .two-fifth, .three-fifth, .four-fifth, .one-sixth, .five-sixth {
+
+        width: 100%;
+        position: relative;
+        padding-bottom: 15px;
+    }
+
+}
